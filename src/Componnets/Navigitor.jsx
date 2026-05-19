@@ -18,12 +18,12 @@ function Navigitor() {
                     <NavLink to="/category" className="nav-link">category</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="./favorites" className="nav-link">favorites</NavLink>
+                    <NavLink to="/favorites" className="nav-link">favorites</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">contact me</a>
+                    <NavLink to="/contact" className="nav-link">contact me</NavLink>
                 </li>
-                <li className="nav-item"><a href="" className="buy-btn"><i className="fa-solid fa-cart-shopping"></i>
+                <li className="nav-item"><a to="" className="buy-btn"><i className="fa-solid fa-cart-shopping"></i>
                     cart</a>
                 </li>
             </ul>
